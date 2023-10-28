@@ -1,4 +1,5 @@
-import deleteProduct from "../services/deleteProduct"
+import { Button } from "react-bootstrap"
+import deleteProduct from "../services/deleteProducts"
 import './ProductCard.css'
 
 function ProductCard({ product, fetchProducts, handleSetData }) {
@@ -11,12 +12,12 @@ function ProductCard({ product, fetchProducts, handleSetData }) {
    return (
       <div className="product-card">
          <img src={product.img} alt={product.name} />
-         <p>{product.name}</p>
-         <p>{product.price}</p>
-         <p>{product.stock}</p>
+         <p class="name">{product.name}</p>
+         <p class="price">{product.price}</p>
+         <p class="stock">Stok: {product.stock}</p>
          <div className="d-flex gap-3">
-            <button className="btn btn-danger" onClick={handleDelete}>Delete</button>
-            <button className="btn btn-primary" onClick={handleSetData}>Edit</button>
+            <Button className="btn btn-danger" onClick={handleDelete}>Delete</Button>
+            <Button className="btn btn-primary" onClick={handleSetData}>Edit</Button>
          </div>
       </div>
    )
