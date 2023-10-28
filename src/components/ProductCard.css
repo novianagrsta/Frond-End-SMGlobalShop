@@ -1,0 +1,11 @@
+.product-card {
+    border : 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    width:  200px;
+}
+
+.product-card img{
+    width : 100%;
+    object-fit: cover;
+}
