@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import getProducts from "./services/getProduct"
 import LoadingSpinner from "./components/LoadingSpinner"
 import AddProduct from "./components/AddProduct"
-import EditProduct from "./components/editProduct"
+import EditProduct from "./components/EditProduct"
 
 
 function App() {
