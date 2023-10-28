@@ -1,5 +1,55 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.d-flex.justify-content-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212529;
+}
+
 .product-list {
-  display : flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  margin-bottom: 20px;
+}
+
+.product-list .button {
+  float: right;
+}
+.header {
+  background-color: #cfe2ff;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  float: left;
+  margin-right: 20px;
+}
+
+.header .logo img {
+  width: 20%;
+  height: 20%;
+}
+
+.header h1 {
+  float: right;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #cfe2ff;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
 }
