@@ -1,12 +1,11 @@
-import axios from 'axios';
+import axios from "axios";
 
-const url = 'https://653b817b2e42fd0d54d539c2.mockapi.io/api/v1/product';
-
-export default async function getProducts() {
-  try {
-    const response = await axios.get(url);
-    return response.data;
-  } catch (error) {
-    console.log(error);
-  }
+const url = 'https://653b817d2e42fd0d54d539d4.mockapi.io/api/v1/product'
+export default async function getPruducts(){
+    try{
+        const response= await axios.get(url);
+        return response.data;
+    } catch(error){
+        console.log(error);
+    }
 }
