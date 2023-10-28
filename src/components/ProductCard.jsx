@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap"
-import deleteProduct from "../services/deleteProducts"
+import deleteProduct from "../services/deleteProduct"
 import './ProductCard.css'
 
 function ProductCard({ product, fetchProducts, handleSetData }) {
