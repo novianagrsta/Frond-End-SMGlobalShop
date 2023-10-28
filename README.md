@@ -1,18 +1,19 @@
-## Backend
+## Frontend
 
-Toko SM Global Shop ini dibangun menggunakan Python Pyramid. Berikut adalah fitur-fitur yang diimplementasikan di backend:
+Frontend toko online ini dibangun menggunakan React.js. Berikut adalah fitur-fitur yang diimplementasikan di frontend:
 
-1. Route untuk halaman utama yang akan menyediakan data produk
-2. Route atau endpoint untuk menerima permintaan tambah/hapus/update produk dan pembelian produk
-3. Validasi data produk yang diterima dari client
-4. Koneksikan antara frontend dan backend untuk mengirim dan menerima data
+1. Halaman utama yang menampilkan daftar produk
+2. Formulir untuk menambahkan/memperbarui produk
+3. Action delete pada produk
+4. State untuk mengelola jumlah produk yang akan dibeli
+5. Shopping cart untuk menghandle pembelian produk
 
 ## Installation
 
 Berikut adalah beberapa langkah untuk menjalankan proyek ini:
 1. Clone proyek ini ke komputer Anda
 ```bash
-  git clone https://github.com/[nama_pengembang]/toko-online-sederhana.git
+  git clone https://github.com/novianagrsta/Front-End-SMGlobalShop.git
 ```
 2. Arahkan ke directiori folder
 ```bash
@@ -29,3 +30,5 @@ Berikut adalah beberapa langkah untuk menjalankan proyek ini:
   npm run dev
 ```
 4. Buka browser dan arahkan ke http://localhost:5000
+
+
